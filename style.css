@@ -18,6 +18,8 @@ nav{
     height: 54px;
     background-color: #FFFF;
     border-bottom: 1px solid #DBDBDB;
+    top: 0;
+    position: sticky;
 }
 .nav-icons{
     width: 22px;
