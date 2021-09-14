@@ -20,6 +20,7 @@ nav{
     border-bottom: 1px solid #DBDBDB;
     top: 0;
     position: sticky;
+    z-index: 1000;
 }
 .nav-icons{
     width: 22px;
@@ -211,6 +212,7 @@ aside{
 /* aside statrs */
 aside{
     margin-top: 30px;
+    position: sticky;
 }
 .profile-area{
     display: flex;
@@ -277,5 +279,8 @@ aside{
     text-decoration: none;
     color: #0095f6;
 }
-
+.sticky{
+    top: 80px;
+    position: sticky;
+}
 /* aside ends */
