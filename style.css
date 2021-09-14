@@ -74,7 +74,10 @@ aside{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    overflow: hidden;
+    overflow: scroll;
+}
+.stroy-area::-webkit-scrollbar{
+    display: none;
 }
 .story-img{
     width: 56px;
