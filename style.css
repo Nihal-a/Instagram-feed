@@ -207,3 +207,75 @@ aside{
     opacity: 20%;
 }
 /* Post ends */
+
+/* aside statrs */
+aside{
+    margin-top: 30px;
+}
+.profile-area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile-area img{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+.profile-area p{
+    margin-left: 1rem;
+}
+.pro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.pro a{
+    text-decoration: none;
+    color: #0095f6;
+}
+.follow{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.follow h5{
+    color: #8e8e8e;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.follow a{
+    font-size: 12px;
+    color: #262626;
+    text-decoration: none;
+}
+.follow-sug{
+    height: 20%;
+    margin-top: 1rem;
+}
+.suggetions{
+    display: flex;
+    align-items: center;
+}
+.suggetions p{
+    margin-left: 1rem;
+}
+.suggetions img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.flw-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .7rem;
+}
+.flw-items a{
+    text-decoration: none;
+    color: #0095f6;
+}
+
+/* aside ends */
