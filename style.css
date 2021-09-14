@@ -106,7 +106,7 @@ aside{
 /* Post starts */
 .post{
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     background-color: #FFFF;
     margin-top: 30px;
     border: solid 1px rgba(var(--b6a,219,219,219),1);
@@ -120,29 +120,29 @@ aside{
 .post-img-area{
     height: 614px;
     width: 100%;
-    background-color: brown;
+    overflow: hidden;
 }
 .post-icons{
     width: 100%;
     height: 40px;
     padding: 0 16px;
-    background-color: burlywood;
 }
 .likes-count{
     width: 100%;
-    height: 20px;
-    background-color: cadetblue;
-}
-.post-bio{
-    width: 100%;
-    height: 60px;
-    background-color: yellow;
+    height: 30px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
 }
 .post-comment{
     width: 100%;
     height: 56px;
     padding: 0 16px;
-    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(var(--b6a,219,219,219),1);
+    margin-top: 6px;
 }
 .pro-name-area{
     display: flex;
@@ -163,5 +163,47 @@ aside{
 .post-details{
     display: flex;
     justify-content: space-between;
+}
+.post-icon-item{
+    width: 25px;
+}
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-icon{
+    display: flex;
+    width: 18%;
+    justify-content: space-between;
+    align-items: center;
+}
+.likes-count img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.likes-count p{
+    font-size: 14px;
+    color: #242424;
+    font-weight: 300;
+    margin-left: .5rem;
+}
+.likes-count p span{
+    font-weight: 400;
+}
+.post-comment img{
+    width: 30px;
+}
+.post-comment input{
+    width: 100%;
+    height: 80%;
+    border: 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.post-comment a{
+    text-decoration: none;
+    opacity: 20%;
 }
 /* Post ends */
