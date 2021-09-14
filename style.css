@@ -283,4 +283,22 @@ aside{
     top: 80px;
     position: sticky;
 }
+.links{
+    margin-top: 2rem;
+}
+.links-item{
+    font-size: 11px;
+    color: #c6c6c6;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: .6px;
+}
+.copyrights{
+    font-size: 11px;
+    color: #c6c6c6;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: .6px;
+    margin-top: 1rem;
+}
 /* aside ends */
