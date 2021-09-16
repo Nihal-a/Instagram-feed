@@ -16,10 +16,11 @@ body{
 nav{
     padding: 12px 0px;
     height: 54px;
+    width: 100%;
     background-color: #FFFF;
     border-bottom: 1px solid #DBDBDB;
     top: 0;
-    position: sticky;
+    position: fixed;
     z-index: 1000;
 }
 .nav-icons{
@@ -57,10 +58,7 @@ main{
     margin-right: 28px;
     padding: 30px 0;
 }
-aside{
-    width: 293px;
-    height: 200vh;
-}
+
 .wrapper{
     display: flex;
 }
@@ -78,6 +76,7 @@ aside{
     align-items: center;
     justify-content: flex-start;
     overflow: scroll;
+    margin-top: 56px;
 }
 .stroy-area::-webkit-scrollbar{
     display: none;
@@ -212,12 +211,11 @@ aside{
 /* aside statrs */
 aside{
     margin-top: 30px;
-    position: sticky;
+    width: 100%;
 }
 .profile-area{
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 .profile-area img{
     width: 62px;
@@ -279,9 +277,9 @@ aside{
     text-decoration: none;
     color: #0095f6;
 }
-.sticky{
+.fixed{
     top: 80px;
-    position: sticky;
+    position: fixed;
 }
 .links{
     margin-top: 2rem;
